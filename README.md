@@ -56,7 +56,7 @@ pip install requests pyperclip pygetwindow pystray pillow keyboard
 ## Notes
 
 - This is a **beta version**. Features may change and improvements will be added over time.  
-- The app is safe and **only interacts with your clipboard and WoW window whil WoW is running and in focus**; it does **not** collect personal information.  
+- The app is safe and **only interacts with your clipboard and WoW window while WoW is running and in focus**; it does **not** collect personal information.  
 - The CurseForge link for the ArmorySpy WoW Addon will be added in a future update.  
 
 ---
