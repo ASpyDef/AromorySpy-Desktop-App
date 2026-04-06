@@ -5,6 +5,10 @@
 
 ArmorySpy Desktop App receives character names from the ArmorySpy WoW Addon, looks up GearScore for each character, and pastes the information back into World of Warcraft automatically.
 
+Get the ArmorySpy AddOn here:
+CurseForge: pending...
+wago.io: https://addons.wago.io/addons/armoryspy
+
 ---
 
 ## Features
@@ -63,7 +67,8 @@ pip install requests pyperclip pygetwindow pystray pillow keyboard
 
 - This is a **beta version**. Features may change and improvements will be added over time.  
 - The app is safe and **only interacts with your clipboard and WoW window while WoW is running and in focus**; it does **not** collect personal information.  
-- The CurseForge link for the ArmorySpy WoW Addon will be added in a future update.  
+- CurseForge Link: pending...
+- Wago.io Link: https://addons.wago.io/addons/armoryspy
 
 ---
 
