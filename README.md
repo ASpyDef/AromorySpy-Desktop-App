@@ -6,7 +6,9 @@
 ArmorySpy Desktop App receives character names from the ArmorySpy WoW Addon, looks up GearScore for each character, and pastes the information back into World of Warcraft automatically.
 
 Get the ArmorySpy AddOn here:
+
 CurseForge: pending...
+
 wago.io: https://addons.wago.io/addons/armoryspy
 
 ---
