@@ -28,10 +28,14 @@ ArmorySpy Desktop App receives character names from the ArmorySpy WoW Addon, loo
 
 ## Requirements
 
-- **To run the `.py` script:** Python 3.x and standard libraries (`requests`, `pyperclip`, `pystray`, `pygetwindow`, `keyboard`, `Pillow`, `tkinter`)  
-- **To run the `.exe`:** No additional requirements  
 - **ArmorySpy WoW Addon:** Must be installed in your WoW client  
+- **To run the `.exe`:** No additional requirements  
+- **To run the `.py` script directly:** Python 3.x
+   install required libraries:
 
+```bash
+pip install requests pyperclip pygetwindow pystray pillow keyboard
+```
 ---
 
 ## Usage
