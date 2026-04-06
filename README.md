@@ -23,7 +23,7 @@ ArmorySpy Desktop App receives character names from the ArmorySpy WoW Addon, loo
 2. Extract the `.exe` or `.py` file.  
 3. Run the program:  
    - `.exe`: Double-click to start  
-   - `.py`: Run with Python (`python "ArmorySpy Desktop App.py"`)  
+   - `.py`: Run with Python 3.10 or later (`python "ArmorySpy Desktop App.py"`)  
 
 ---
 
@@ -44,7 +44,7 @@ pip install requests pyperclip pygetwindow pystray pillow keyboard
 - Use the ArmorySpy WoW Addon in-game and follow its instructions for exporting/importing GearScore.  
 - The app runs in the background as a tray icon.  
 - **Right-click the tray icon** to access options:  
-  - Set or clear hotkey  
+  - Set or clear hotkey (no hotkey is set by deault, you can allways use Crtl+C in game)
   - Pause/resume clipboard monitoring  
   - Open the console for logs (console is hidden by default)  
   - Exit the app
