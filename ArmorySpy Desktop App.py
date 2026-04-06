@@ -171,7 +171,7 @@ def create_console_window():
     global console_window, APP_VERSION
     if console_window: return
     console_window = tk.Toplevel(root)
-    console_window.title("Gearscore Console")
+    console_window.title("ArmorySpy Desktop App Console")
     console_window.geometry("600x300")
     console_window.protocol("WM_DELETE_WINDOW", lambda: console_window.withdraw())
     text_area = ScrolledText(console_window, state="disabled", font=("Consolas",10), bg="black", fg="white")
