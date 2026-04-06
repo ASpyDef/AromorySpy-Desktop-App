@@ -47,7 +47,7 @@ def load_config():
         return None, 0
 
  # -------------------- Check for updates --------------------   
-GITHUB_API_URL = "https://api.github.com/repos/YourUsername/GearscoreHelper/releases/latest"
+GITHUB_API_URL = "https://api.github.com/repos/ASpyDef/AromorySpy-Desktop-App/releases/latest"
 
 def show_update_popup(latest_version, current_version):
     root = tk.Toplevel()
@@ -58,7 +58,7 @@ def show_update_popup(latest_version, current_version):
     msg = f"New version available: {latest_version}\nYou are on: {current_version}"
     tk.Label(root, text=msg, font=("Arial", 10), justify="center").pack(pady=10)
 
-    link_url = "https://github.com/YourRepo/GearscoreHelper/releases"
+    link_url = "https://github.com/ASpyDef/AromorySpy-Desktop-App"
     link_label = tk.Label(root, text=link_url, font=("Arial", 10, "underline"), fg="blue", cursor="hand2")
     link_label.pack(pady=10)
     link_label.bind("<Button-1>", lambda e: webbrowser.open(link_url))
@@ -79,6 +79,9 @@ def check_for_update(current_version):
                 root = tk._default_root
                 if root:
                     root.after(0, lambda: show_update_popup(latest_version, current_version))
+            else:
+                print(f"App version is up to date: {current_version}")
+
         except Exception as e:
             print("Failed to check for updates:", e)
 
