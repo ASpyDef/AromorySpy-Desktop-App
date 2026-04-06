@@ -41,13 +41,15 @@ pip install requests pyperclip pygetwindow pystray pillow keyboard
 
 ## Usage
 
+- Use the ArmorySpy WoW Addon in-game and follow its instructions for exporting/importing GearScore.  
 - The app runs in the background as a tray icon.  
 - **Right-click the tray icon** to access options:  
   - Set or clear hotkey  
   - Pause/resume clipboard monitoring  
   - Open the console for logs (console is hidden by default)  
-  - Exit the app  
-- Use the ArmorySpy WoW Addon in-game and follow its instructions for exporting/importing GearScore.  
+  - Exit the app
+
+![download link](https://i.imgur.com/HwKZtrO.png) ![download link](https://i.imgur.com/hC8rO5z.png)
 
 ---
 
