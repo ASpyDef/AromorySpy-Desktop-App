@@ -53,6 +53,12 @@ pip install requests pyperclip pygetwindow pystray pillow keyboard
 
 ---
 
+## Updates
+
+- The ArmorySpy Desktop App automatically checks GitHub for updates and will notify you if a new version is available.
+
+---
+
 ## Notes
 
 - This is a **beta version**. Features may change and improvements will be added over time.  
