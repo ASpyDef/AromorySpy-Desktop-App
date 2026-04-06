@@ -178,8 +178,9 @@ def create_console_window():
     text_area.pack(fill=tk.BOTH, expand=True)
     sys.stdout = ConsoleRedirector(text_area)
     sys.stderr = ConsoleRedirector(text_area)
-    print("Gearscore helper running")
+    print("ArmorySpy Desktop App running")
     print("AppVersion: ", APP_VERSION)
+    console_window.withdraw()
 
 # -------------------- Spinner Overlay --------------------
 class SpinnerOverlay:
@@ -633,13 +634,13 @@ def setup_tray():
         pystray.MenuItem("Toggle Console", toggle_console),
         pystray.MenuItem("Exit", on_exit)
     )
-    tray_icon = pystray.Icon("Gearscore Helper", create_image(), "Gearscore Helper", menu)
+    tray_icon = pystray.Icon("ArmorySpy Desktop App", create_image(), "ArmorySpy Desktop App", menu)
     threading.Thread(target=tray_icon.run_detached, daemon=True).start()
 
 # -------------------- Main --------------------
 def main():
     global APP_VERSION
-    print("Gearscore helper running")
+    print("ArmorySpy Desktop App running")
     print("AppVersion: ", APP_VERSION)
     check_for_update(APP_VERSION)
     create_console_window()
