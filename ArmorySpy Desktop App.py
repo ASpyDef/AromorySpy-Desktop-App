@@ -20,7 +20,7 @@ import webbrowser
 import keyboard
 
 # -------------------- App Version --------------------
-APP_VERSION = "0.0.1"  # desktop helper version
+APP_VERSION = "0.0.2"  # desktop helper version
 # -----------------------------------------------------
 
 MIN_ADDON_VERSION = "0.0.1"
