@@ -31,7 +31,7 @@ ArmorySpy Desktop App receives character names from the ArmorySpy WoW Addon, loo
 
 - **ArmorySpy WoW Addon:** Must be installed in your WoW client  
 - **To run the `.exe`:** No additional requirements  
-- **To run the `.py` script directly:** Python 3.x
+- **To run the `.py` script directly:** Python 3.10 or later
    install required libraries:
 
 ```bash
@@ -41,20 +41,22 @@ pip install requests pyperclip pygetwindow pystray pillow keyboard
 
 ## Usage
 
+- Use the ArmorySpy WoW Addon in-game and follow its instructions for exporting/importing GearScore.  
 - The app runs in the background as a tray icon.  
 - **Right-click the tray icon** to access options:  
   - Set or clear hotkey  
   - Pause/resume clipboard monitoring  
-  - Open the console for logs  
-  - Exit the app  
-- Use the ArmorySpy WoW Addon in-game and follow its instructions for exporting/importing GearScore.  
+  - Open the console for logs (console is hidden by default)  
+  - Exit the app
+
+![download link](https://i.imgur.com/HwKZtrO.png) ![download link](https://i.imgur.com/hC8rO5z.png)
 
 ---
 
 ## Notes
 
 - This is a **beta version**. Features may change and improvements will be added over time.  
-- The app is safe and only interacts with your clipboard and WoW window; it does **not** collect personal information.  
+- The app is safe and **only interacts with your clipboard and WoW window whil WoW is running and in focus**; it does **not** collect personal information.  
 - The CurseForge link for the ArmorySpy WoW Addon will be added in a future update.  
 
 ---
