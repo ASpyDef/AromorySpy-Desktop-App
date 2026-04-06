@@ -19,7 +19,7 @@ ArmorySpy Desktop App receives character names from the ArmorySpy WoW Addon, loo
 ## Installation
 
 1. Download the latest release `.zip` from GitHub via the green **Code** button in the top right.
-   ![download link](https://i.imgur.com/E9By2rJ.png))
+   ![download link](https://i.imgur.com/E9By2rJ.png)
 2. Extract the `.exe` or `.py` file.  
 3. Run the program:  
    - `.exe`: Double-click to start  
