@@ -7,7 +7,7 @@ ArmorySpy Desktop App receives character names from the ArmorySpy WoW Addon, loo
 
 Get the ArmorySpy AddOn here:
 
-CurseForge.com: pending...
+CurseForge.com: https://www.curseforge.com/wow/addons/armoryspy
 
 wowinterface.com: pending ...
 
@@ -71,7 +71,7 @@ pip install requests pyperclip pygetwindow pystray pillow keyboard
 
 - This is a **beta version**. Features may change and improvements will be added over time.  
 - The app is safe and **only interacts with your clipboard and WoW window while WoW is running and in focus**; it does **not** collect personal information.  
-- CurseForge Link: pending...
+- CurseForge Link: https://www.curseforge.com/wow/addons/armoryspy
 - wowinterface.com: pending ...
 - Wago.io Link: https://addons.wago.io/addons/armoryspy
 
